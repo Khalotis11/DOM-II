@@ -165,7 +165,7 @@ img {
 }
 .container {
   max-width: 800px;
-  width: 100%;
+  width: 95%;
   margin: 0 auto;
 }
 @media (max-width: 500px) {
@@ -308,6 +308,7 @@ img {
 .home .content-pick {
   padding-top: 30px;
   border-top: 2px dashed #C0C0C0;
+  border-bottom: 2px dashed #C0C0C0;
   display: flex;
   justify-content: space-between;
 }
@@ -347,6 +348,42 @@ img {
   }
 }
 .home .content-pick .destination .btn:hover {
+  background: #FFFFFF;
+  color: #17A2B8;
+}
+.myform {
+  margin: 5% 0 2% 0;
+  width: 20%;
+  display: flex;
+}
+.myform .text-imput {
+  width: 100%;
+  padding: 10%;
+  border-radius: 5px;
+  margin: 2% 0 4% 0;
+}
+.myform .btn2 {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 48px;
+  background-color: #17A2B8;
+  color: #FFFFFF;
+  border: 1px solid #C0C0C0;
+  cursor: pointer;
+  font-size: 1.8rem;
+  border-radius: 4px;
+}
+@media (max-width: 500px) {
+  .myform .btn2 {
+    width: 100%;
+  }
+}
+.myform .btn2:hover {
   background: #FFFFFF;
   color: #17A2B8;
 }
